@@ -1,10 +1,7 @@
 import streamlit as st
 import gspread as gs
-import pandas as pd
-import base64
-import altair as alt
-import matplotlib.pyplot as plt
-import numpy as np
+import pandas as pd 
+import altair as alt 
 
 st.set_page_config(layout="wide")
 
