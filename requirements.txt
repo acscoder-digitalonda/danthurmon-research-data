@@ -1,0 +1,2 @@
+gspread==5.7.2
+streamlit==1.18.1
