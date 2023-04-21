@@ -48,6 +48,7 @@ def main():
                 #MainMenu {visibility: hidden;display:none!important;}
                 footer {visibility: hidden;display:none!important;}
                 header {visibility: hidden;display:none!important;}
+                .block-container{padding:0!important;}
                 a.viewerBadge_container__1QSob,a[rel="noopener noreferrer"]{visibility: hidden!important;;display:none!important;}
                 </style>
                 """
