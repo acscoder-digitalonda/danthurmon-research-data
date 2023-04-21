@@ -41,6 +41,16 @@ def draw_chart(x_axis,df):
           
 def main():
     st.set_page_config(layout="wide")
+    
+    
+    hide_st_style = """
+                <style>
+                #MainMenu {visibility: hidden;display:none!important;}
+                footer {visibility: hidden;display:none!important;}
+                header {visibility: hidden;display:none!important;}
+                </style>
+                """
+    st.markdown(hide_st_style, unsafe_allow_html=True)
       
     gc = gs.service_account(filename='service_account.json')
 
